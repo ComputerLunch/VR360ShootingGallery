@@ -93,8 +93,7 @@ namespace VRStandardAssets.Utils
             if (m_BarCanvas && m_DisappearOnBarFill)
                 m_BarCanvas.SetActive(false);
         }
-
-
+			
         private IEnumerator FillBar ()
         {
             // When the bar starts to fill, reset the timer.

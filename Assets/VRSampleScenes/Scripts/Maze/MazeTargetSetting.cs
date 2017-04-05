@@ -34,6 +34,7 @@ namespace VRStandardAssets.Maze
         public void Activate ()
         {
             m_Active = true;
+
         }
 
 
