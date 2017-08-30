@@ -16,6 +16,6 @@ public class UpdateScore : MonoBehaviour {
 	void Update () {
 		
 		// Set score form sessiondata
-		textbox.text =  SessionData.GetHighScore().ToString();
+		textbox.text =  SessionData.Score.ToString();
 	}
 }
